@@ -1,0 +1,18 @@
+{
+  "experiment": "W3C-01",
+  "cv_log_loss_mean": 1.0858,
+  "cv_log_loss_std": 0.0194,
+  "accuracy": 0.4688,
+  "n_matches": 64,
+  "n_features": 8,
+  "delta_vs_baseline_0.8337": 0.2521,
+  "delta_vs_frontier_0.7608": 0.325,
+  "wilcoxon_vs_baseline_pvalue": 0.9985,
+  "wilcoxon_vs_frontier_pvalue": 1.0,
+  "verdict_vs_baseline": "RED",
+  "label_classes": [
+    "A",
+    "D",
+    "H"
+  ]
+}

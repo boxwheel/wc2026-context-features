@@ -1,0 +1,21 @@
+{
+  "experiment": "W3C-01",
+  "description": "Context features only (rest days, travel, altitude, kickoff time, match number, host-venue)",
+  "model": "LogisticRegression(C=0.1, multinomial)",
+  "features": [
+    "rest_diff",
+    "travel_diff",
+    "venue_elevation",
+    "kickoff_local_hour",
+    "match_num_home",
+    "match_num_away",
+    "home_host_home_venue",
+    "away_host_home_venue"
+  ],
+  "seed": 0,
+  "cv": "RepeatedStratifiedKFold(n_splits=5, n_repeats=10, random_state=0)",
+  "baseline_loss": 0.8337,
+  "frontier_loss": 0.7608,
+  "python_version": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+  "sklearn_version": "1.9.0"
+}
