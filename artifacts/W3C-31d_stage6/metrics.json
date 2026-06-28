@@ -1,0 +1,24 @@
+{
+  "experiment": "W3C-31d_stage6",
+  "cv_log_loss_mean": 0.7745,
+  "cv_log_loss_std": 0.0132,
+  "accuracy": 0.6562,
+  "delta_vs_baseline_0.8337": -0.0592,
+  "delta_vs_frontier_0.7608": 0.0137,
+  "wilcoxon_vs_baseline_pvalue": 0.0018,
+  "wilcoxon_vs_frontier_pvalue": 0.1408,
+  "verdict_vs_baseline": "GREEN",
+  "label_classes": [
+    "A",
+    "D",
+    "H"
+  ],
+  "blend_weights": [
+    0.45,
+    0.55
+  ],
+  "blend_components": [
+    "KDE_TS",
+    "SVM6"
+  ]
+}
