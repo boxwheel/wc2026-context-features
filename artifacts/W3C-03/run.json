@@ -1,0 +1,30 @@
+{
+  "experiment": "W3C-03",
+  "description": "Full features: Elo + squad + context; C-sweep over [0.05, 0.1, 0.3, 1.0]",
+  "model": "LogisticRegression(C=0.05, multinomial)",
+  "best_C": 0.05,
+  "features": [
+    "elo_diff",
+    "host_advantage",
+    "mv_top11_diff",
+    "caps_diff",
+    "age_diff",
+    "gk_mv_diff",
+    "att_goals_diff",
+    "rank_diff",
+    "rest_diff",
+    "travel_diff",
+    "venue_elevation",
+    "kickoff_local_hour",
+    "match_num_home",
+    "match_num_away",
+    "home_host_home_venue",
+    "away_host_home_venue"
+  ],
+  "seed": 0,
+  "cv": "RepeatedStratifiedKFold(n_splits=5, n_repeats=10, random_state=0)",
+  "baseline_loss": 0.8337,
+  "frontier_loss": 0.7608,
+  "python_version": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+  "sklearn_version": "1.9.0"
+}

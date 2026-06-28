@@ -1,0 +1,22 @@
+{
+  "experiment": "W3C-04",
+  "cv_log_loss_mean": 0.84,
+  "cv_log_loss_std": 0.0174,
+  "accuracy": 0.625,
+  "n_wc2026": 64,
+  "n_historical": 256,
+  "delta_vs_baseline_0.8337": 0.0063,
+  "delta_vs_frontier_0.7608": 0.0792,
+  "wilcoxon_vs_baseline_pvalue": 0.3222,
+  "wilcoxon_vs_frontier_pvalue": 0.8356,
+  "verdict_vs_baseline": "FLAT",
+  "label_classes": [
+    "A",
+    "D",
+    "H"
+  ],
+  "best_config": {
+    "hist_weight": 0.1,
+    "C": 1.0
+  }
+}

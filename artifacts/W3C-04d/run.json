@@ -1,0 +1,12 @@
+{
+  "experiment": "W3C-04d",
+  "description": "WC-2022 Qatar only augmentation (64 matches, most recent). Best: {'hist_w': 0.2, 'C': 2.0}",
+  "model": "LogisticRegression(C=2.0)",
+  "n_wc2022": 64,
+  "features": [
+    "elo_diff",
+    "host_advantage"
+  ],
+  "seed": 0,
+  "cv": "RepeatedStratifiedKFold(5x10, seed=0)"
+}

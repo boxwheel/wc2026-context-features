@@ -1,0 +1,22 @@
+{
+  "cv_log_loss_mean": 0.8377,
+  "cv_log_loss_std": 0.0203,
+  "accuracy": 0.625,
+  "delta_vs_baseline_0.8337": 0.004,
+  "delta_vs_frontier_0.7608": 0.0769,
+  "wilcoxon_vs_baseline_pvalue": 0.2497,
+  "wilcoxon_vs_frontier_pvalue": 0.7791,
+  "verdict_vs_baseline": "FLAT",
+  "label_classes": [
+    "A",
+    "D",
+    "H"
+  ],
+  "n_wc2026": 64,
+  "n_historical": 64,
+  "best_config": {
+    "hist_w": 0.2,
+    "C": 2.0
+  },
+  "experiment": "W3C-04d"
+}

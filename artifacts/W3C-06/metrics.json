@@ -1,0 +1,22 @@
+{
+  "experiment": "W3C-06",
+  "cv_log_loss_mean": 0.8466,
+  "cv_log_loss_std": 0.0097,
+  "accuracy": 0.6719,
+  "delta_vs_baseline_0.8337": 0.0129,
+  "delta_vs_frontier_0.7608": 0.0858,
+  "wilcoxon_vs_baseline_pvalue": 0.0905,
+  "wilcoxon_vs_frontier_pvalue": 0.785,
+  "verdict_vs_baseline": "RED",
+  "label_classes": [
+    "A",
+    "D",
+    "H"
+  ],
+  "blend_components": [
+    "Elo-logistic",
+    "SVM-RBF-Elo",
+    "RF-full-features"
+  ],
+  "blend_weights": "equal_1/3"
+}

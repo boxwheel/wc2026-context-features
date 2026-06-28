@@ -1,0 +1,17 @@
+{
+  "experiment": "W3C-06",
+  "description": "3-model equal blend: Elo-logistic + SVM-RBF(Elo) + RF(full features)",
+  "model": "EqualBlend",
+  "features": [
+    "elo_diff",
+    "host_advantage",
+    "mv_top11_diff",
+    "caps_diff",
+    "age_diff",
+    "gk_mv_diff",
+    "att_goals_diff",
+    "rank_diff"
+  ],
+  "seed": 0,
+  "cv": "5x10 RepeatedStratifiedKFold"
+}

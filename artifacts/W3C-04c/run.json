@@ -1,0 +1,15 @@
+{
+  "experiment": "W3C-04c",
+  "description": "Elo-scale-aligned historical WC 2010-2022 augmentation. Alignment: linear regression on WC-2026 teams anchor. Best: {'hist_w': 0.1, 'C': 2.0}",
+  "model": "LogisticRegression(C=2.0)",
+  "elo_alignment": {
+    "slope": 1.202793455402928,
+    "intercept": -378.4694735284336
+  },
+  "features": [
+    "elo_diff",
+    "host_advantage"
+  ],
+  "seed": 0,
+  "cv": "RepeatedStratifiedKFold(5x10, seed=0)"
+}

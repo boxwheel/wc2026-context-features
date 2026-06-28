@@ -1,0 +1,17 @@
+{
+  "experiment": "W3C-04",
+  "description": "Augmented CV: WC-2026 + historical WC 2010-2022 (256 matches) as extra training. Best config: {'hist_weight': 0.1, 'C': 1.0}",
+  "model": "LogisticRegression(C=1.0)",
+  "n_historical": 256,
+  "best_config": {
+    "hist_weight": 0.1,
+    "C": 1.0
+  },
+  "features": [
+    "elo_diff",
+    "host_advantage"
+  ],
+  "seed": 0,
+  "cv": "RepeatedStratifiedKFold(n_splits=5, n_repeats=10)",
+  "sklearn_version": "1.9.0"
+}

@@ -1,0 +1,10 @@
+{
+  "experiment": "W3C-07",
+  "description": "Equal blend of Elo-logistic (C=1.0) + SVM-RBF (C=1.0, gamma=scale) on 2 Elo features [elo_diff, host_advantage]. GREEN vs 0.8337 baseline.",
+  "features": [
+    "elo_diff",
+    "host_advantage"
+  ],
+  "seed": 0,
+  "cv": "5x10 RepeatedStratifiedKFold"
+}

@@ -1,0 +1,17 @@
+{
+  "experiment": "W3C-05",
+  "description": "Elo+squad features + aligned historical WC augmentation (squad=0 for historical). Best: {'hist_w': 0.2, 'C': 0.1}",
+  "model": "LogisticRegression(C=0.1)",
+  "features": [
+    "elo_diff",
+    "host_advantage",
+    "mv_top11_diff",
+    "caps_diff",
+    "age_diff",
+    "gk_mv_diff",
+    "att_goals_diff",
+    "rank_diff"
+  ],
+  "seed": 0,
+  "cv": "RepeatedStratifiedKFold(5x10, seed=0)"
+}

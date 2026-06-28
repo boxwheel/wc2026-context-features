@@ -1,0 +1,21 @@
+{
+  "experiment": "W3C-07",
+  "cv_log_loss_mean": 0.8196,
+  "cv_log_loss_std": 0.0103,
+  "accuracy": 0.6406,
+  "delta_vs_baseline_0.8337": -0.0141,
+  "delta_vs_frontier_0.7608": 0.0588,
+  "wilcoxon_vs_baseline_pvalue": 0.0224,
+  "wilcoxon_vs_frontier_pvalue": 0.3817,
+  "verdict_vs_baseline": "GREEN",
+  "label_classes": [
+    "A",
+    "D",
+    "H"
+  ],
+  "blend_components": [
+    "LogisticRegression(C=1.0)",
+    "SVC(C=1.0,gamma=scale,kernel=rbf)"
+  ],
+  "blend_weights": "equal_0.5_each"
+}
