@@ -1,0 +1,24 @@
+{
+  "experiment": "W3C-22b_laplace_bw200",
+  "cv_log_loss_mean": 0.7999,
+  "cv_log_loss_std": 0.0086,
+  "accuracy": 0.6562,
+  "delta_vs_baseline_0.8337": -0.0338,
+  "delta_vs_frontier_0.7608": 0.0391,
+  "wilcoxon_vs_baseline_pvalue": 0.0162,
+  "wilcoxon_vs_frontier_pvalue": 0.6385,
+  "verdict_vs_baseline": "GREEN",
+  "label_classes": [
+    "A",
+    "D",
+    "H"
+  ],
+  "blend_weights": [
+    0.5,
+    0.5
+  ],
+  "blend_components": [
+    "LaplaceKDE",
+    "SVM"
+  ]
+}

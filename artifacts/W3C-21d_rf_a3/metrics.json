@@ -1,0 +1,24 @@
+{
+  "experiment": "W3C-21d_rf_a3",
+  "cv_log_loss_mean": 0.8736,
+  "cv_log_loss_std": 0.0216,
+  "accuracy": 0.5312,
+  "delta_vs_baseline_0.8337": 0.0399,
+  "delta_vs_frontier_0.7608": 0.1128,
+  "wilcoxon_vs_baseline_pvalue": 0.0679,
+  "wilcoxon_vs_frontier_pvalue": 0.2894,
+  "verdict_vs_baseline": "RED",
+  "label_classes": [
+    "A",
+    "D",
+    "H"
+  ],
+  "blend_weights": [
+    0.3,
+    0.7
+  ],
+  "blend_components": [
+    "KDE_TS",
+    "RF"
+  ]
+}

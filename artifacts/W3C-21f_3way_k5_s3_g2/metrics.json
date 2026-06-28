@@ -1,0 +1,26 @@
+{
+  "experiment": "W3C-21f_3way_k5_s3_g2",
+  "cv_log_loss_mean": 0.802,
+  "cv_log_loss_std": 0.0109,
+  "accuracy": 0.6406,
+  "delta_vs_baseline_0.8337": -0.0317,
+  "delta_vs_frontier_0.7608": 0.0412,
+  "wilcoxon_vs_baseline_pvalue": 0.0382,
+  "wilcoxon_vs_frontier_pvalue": 0.5346,
+  "verdict_vs_baseline": "GREEN",
+  "label_classes": [
+    "A",
+    "D",
+    "H"
+  ],
+  "blend_weights": [
+    0.5,
+    0.3,
+    0.2
+  ],
+  "blend_components": [
+    "KDE_TS",
+    "SVM",
+    "GBM"
+  ]
+}

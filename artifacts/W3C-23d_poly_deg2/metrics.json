@@ -1,0 +1,24 @@
+{
+  "experiment": "W3C-23d_poly_deg2",
+  "cv_log_loss_mean": 0.8834,
+  "cv_log_loss_std": 0.0118,
+  "accuracy": 0.6094,
+  "delta_vs_baseline_0.8337": 0.0497,
+  "delta_vs_frontier_0.7608": 0.1226,
+  "wilcoxon_vs_baseline_pvalue": 0.9138,
+  "wilcoxon_vs_frontier_pvalue": 0.9893,
+  "verdict_vs_baseline": "RED",
+  "label_classes": [
+    "A",
+    "D",
+    "H"
+  ],
+  "blend_weights": [
+    0.5,
+    0.5
+  ],
+  "blend_components": [
+    "KDE_TS",
+    "PolySVM"
+  ]
+}

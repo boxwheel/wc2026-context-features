@@ -1,0 +1,26 @@
+{
+  "experiment": "W3C-22e_shrink15",
+  "cv_log_loss_mean": 0.8283,
+  "cv_log_loss_std": 0.006,
+  "accuracy": 0.6562,
+  "delta_vs_baseline_0.8337": -0.0054,
+  "delta_vs_frontier_0.7608": 0.0675,
+  "wilcoxon_vs_baseline_pvalue": 0.1169,
+  "wilcoxon_vs_frontier_pvalue": 0.9027,
+  "verdict_vs_baseline": "FLAT",
+  "label_classes": [
+    "A",
+    "D",
+    "H"
+  ],
+  "blend_weights": [
+    0.425,
+    0.425,
+    0.15
+  ],
+  "blend_components": [
+    "KDE_TS",
+    "SVM",
+    "Uniform"
+  ]
+}
