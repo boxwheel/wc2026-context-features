@@ -1,0 +1,24 @@
+{
+  "experiment": "W3C-24c_nu10_bw200",
+  "cv_log_loss_mean": 0.7988,
+  "cv_log_loss_std": 0.0132,
+  "accuracy": 0.6562,
+  "delta_vs_baseline_0.8337": -0.0349,
+  "delta_vs_frontier_0.7608": 0.038,
+  "wilcoxon_vs_baseline_pvalue": 0.0162,
+  "wilcoxon_vs_frontier_pvalue": 0.7545,
+  "verdict_vs_baseline": "GREEN",
+  "label_classes": [
+    "A",
+    "D",
+    "H"
+  ],
+  "blend_weights": [
+    0.5,
+    0.5
+  ],
+  "blend_components": [
+    "StKDE",
+    "SVM"
+  ]
+}

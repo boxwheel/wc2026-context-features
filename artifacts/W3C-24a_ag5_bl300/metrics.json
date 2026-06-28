@@ -1,0 +1,24 @@
+{
+  "experiment": "W3C-24a_ag5_bl300",
+  "cv_log_loss_mean": 0.8019,
+  "cv_log_loss_std": 0.0073,
+  "accuracy": 0.6562,
+  "delta_vs_baseline_0.8337": -0.0318,
+  "delta_vs_frontier_0.7608": 0.0411,
+  "wilcoxon_vs_baseline_pvalue": 0.0246,
+  "wilcoxon_vs_frontier_pvalue": 0.7608,
+  "verdict_vs_baseline": "GREEN",
+  "label_classes": [
+    "A",
+    "D",
+    "H"
+  ],
+  "blend_weights": [
+    0.5,
+    0.5
+  ],
+  "blend_components": [
+    "GL_KDE",
+    "SVM"
+  ]
+}
