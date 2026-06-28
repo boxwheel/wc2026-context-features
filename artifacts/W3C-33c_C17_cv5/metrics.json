@@ -1,0 +1,25 @@
+{
+  "experiment": "W3C-33c_C17_cv5",
+  "cv_log_loss_mean": 0.8226,
+  "cv_log_loss_std": 0.0231,
+  "accuracy": 0.6562,
+  "delta_vs_baseline_0.8337": -0.0111,
+  "delta_vs_frontier_0.7608": 0.0618,
+  "delta_vs_record_0.7744": 0.0482,
+  "wilcoxon_vs_baseline_pvalue": 0.0734,
+  "wilcoxon_vs_frontier_pvalue": 0.6208,
+  "verdict_vs_baseline": "FLAT",
+  "label_classes": [
+    "A",
+    "D",
+    "H"
+  ],
+  "blend_weights": [
+    0.45,
+    0.55
+  ],
+  "blend_components": [
+    "KDE_TS",
+    "CalSVM"
+  ]
+}

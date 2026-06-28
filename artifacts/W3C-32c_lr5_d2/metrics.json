@@ -1,0 +1,24 @@
+{
+  "experiment": "W3C-32c_lr5_d2",
+  "cv_log_loss_mean": 0.8837,
+  "cv_log_loss_std": 0.0376,
+  "accuracy": 0.6406,
+  "delta_vs_baseline_0.8337": 0.05,
+  "delta_vs_frontier_0.7608": 0.1229,
+  "wilcoxon_vs_baseline_pvalue": 0.5267,
+  "wilcoxon_vs_frontier_pvalue": 0.7791,
+  "verdict_vs_baseline": "RED",
+  "label_classes": [
+    "A",
+    "D",
+    "H"
+  ],
+  "blend_weights": [
+    0.45,
+    0.55
+  ],
+  "blend_components": [
+    "KDE_TS",
+    "GBM5"
+  ]
+}

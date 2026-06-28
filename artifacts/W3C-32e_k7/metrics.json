@@ -1,0 +1,24 @@
+{
+  "experiment": "W3C-32e_k7",
+  "cv_log_loss_mean": 0.8446,
+  "cv_log_loss_std": 0.0233,
+  "accuracy": 0.6094,
+  "delta_vs_baseline_0.8337": 0.0109,
+  "delta_vs_frontier_0.7608": 0.0838,
+  "wilcoxon_vs_baseline_pvalue": 0.0557,
+  "wilcoxon_vs_frontier_pvalue": 0.4284,
+  "verdict_vs_baseline": "RED",
+  "label_classes": [
+    "A",
+    "D",
+    "H"
+  ],
+  "blend_weights": [
+    0.45,
+    0.55
+  ],
+  "blend_components": [
+    "KDE_TS",
+    "KNN5"
+  ]
+}
