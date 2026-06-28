@@ -1,0 +1,24 @@
+{
+  "experiment": "W3C-20b_nw_bw1000",
+  "cv_log_loss_mean": 0.8988,
+  "cv_log_loss_std": 0.008,
+  "accuracy": 0.625,
+  "delta_vs_baseline_0.8337": 0.0651,
+  "delta_vs_frontier_0.7608": 0.138,
+  "wilcoxon_vs_baseline_pvalue": 0.9004,
+  "wilcoxon_vs_frontier_pvalue": 0.9946,
+  "verdict_vs_baseline": "RED",
+  "label_classes": [
+    "A",
+    "D",
+    "H"
+  ],
+  "blend_weights": [
+    0.5,
+    0.5
+  ],
+  "blend_components": [
+    "NW",
+    "SVM"
+  ]
+}

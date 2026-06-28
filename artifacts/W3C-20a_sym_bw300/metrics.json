@@ -1,0 +1,24 @@
+{
+  "experiment": "W3C-20a_sym_bw300",
+  "cv_log_loss_mean": 0.8015,
+  "cv_log_loss_std": 0.0107,
+  "accuracy": 0.6562,
+  "delta_vs_baseline_0.8337": -0.0322,
+  "delta_vs_frontier_0.7608": 0.0407,
+  "wilcoxon_vs_baseline_pvalue": 0.0197,
+  "wilcoxon_vs_frontier_pvalue": 0.7587,
+  "verdict_vs_baseline": "GREEN",
+  "label_classes": [
+    "A",
+    "D",
+    "H"
+  ],
+  "blend_weights": [
+    0.5,
+    0.5
+  ],
+  "blend_components": [
+    "SymKDE",
+    "SVM"
+  ]
+}

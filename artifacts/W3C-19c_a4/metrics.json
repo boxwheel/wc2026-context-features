@@ -1,0 +1,16 @@
+{
+  "experiment": "W3C-19c_a4",
+  "cv_log_loss_mean": 0.9046,
+  "cv_log_loss_std": 0.036,
+  "accuracy": 0.5,
+  "delta_vs_baseline_0.8337": 0.0709,
+  "delta_vs_frontier_0.7608": 0.1438,
+  "wilcoxon_vs_baseline_pvalue": 0.5899,
+  "wilcoxon_vs_frontier_pvalue": 0.9116,
+  "verdict_vs_baseline": "RED",
+  "label_classes": [
+    "A",
+    "D",
+    "H"
+  ]
+}

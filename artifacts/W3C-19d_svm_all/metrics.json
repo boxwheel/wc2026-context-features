@@ -1,0 +1,8 @@
+{
+  "experiment": "W3C-19d_svm_all",
+  "cv_log_loss_mean": 0.9935,
+  "cv_log_loss_std": 0.0228,
+  "delta_vs_baseline_0.8337": 0.1598,
+  "wilcoxon_vs_baseline_pvalue": 0.9754,
+  "verdict_vs_baseline": "RED"
+}
