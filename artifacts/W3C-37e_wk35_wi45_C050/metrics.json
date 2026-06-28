@@ -1,0 +1,22 @@
+{
+  "experiment": "W3C-37e_wk35_wi45_C050",
+  "cv_log_loss_mean": 0.739,
+  "cv_log_loss_std": 0.0119,
+  "accuracy": 0.6719,
+  "delta_vs_baseline_0.8337": -0.0947,
+  "delta_vs_frontier_0.7608": -0.0218,
+  "delta_vs_record_0.7388": 0.0002,
+  "wilcoxon_vs_baseline_pvalue": 0.0018,
+  "wilcoxon_vs_frontier_pvalue": 0.062,
+  "verdict_vs_baseline": "GREEN",
+  "label_classes": [
+    "A",
+    "D",
+    "H"
+  ],
+  "blend_weights": [
+    0.35,
+    0.45,
+    0.2
+  ]
+}

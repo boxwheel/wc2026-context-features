@@ -1,0 +1,17 @@
+{
+  "experiment": "W3C-36c_th500_a34_C50",
+  "script": "wave3-context/code/run_w3c36.py",
+  "repo": "https://github.com/boxwheel/wc2026-context-features",
+  "features": ["elo_diff", "host_advantage", "rank_diff", "mv_top11_diff", "gk_mv_diff", "rest_diff", "venue_elevation_binary_500m"],
+  "feature_note": "venue_elevation replaced by binary indicator: 1 if stadium altitude > 500m, 0 otherwise",
+  "model": "KDE_TS(bw=300, C2=2.0, pw=0.2) * 0.34 + SVC(C=5.0, kernel='rbf', gamma='scale') * 0.66",
+  "seed": 0,
+  "cv": "RepeatedStratifiedKFold(n_splits=5, n_repeats=10)",
+  "cv_log_loss_mean": 0.7388,
+  "cv_log_loss_std": 0.0136,
+  "wilcoxon_vs_frontier_pvalue": 0.0550,
+  "wilcoxon_vs_baseline_pvalue": 0.0013,
+  "data": "build_match_features(include_context=True), n=64 WC-2026 group-stage matches",
+  "leakage_check": "all features are pre-match only",
+  "note": "Altitude as binary indicator (>500m) dramatically outperforms continuous elevation. W3C-36 also tested log(elevation+1), rest×elev interaction, separate rest_days_home/away, travel_km — all worse than indicator."
+}
