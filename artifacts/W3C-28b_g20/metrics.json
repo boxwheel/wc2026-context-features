@@ -1,0 +1,24 @@
+{
+  "experiment": "W3C-28b_g20",
+  "cv_log_loss_mean": 0.8016,
+  "cv_log_loss_std": 0.0062,
+  "accuracy": 0.625,
+  "delta_vs_baseline_0.8337": -0.0321,
+  "delta_vs_frontier_0.7608": 0.0408,
+  "wilcoxon_vs_baseline_pvalue": 0.1031,
+  "wilcoxon_vs_frontier_pvalue": 0.8993,
+  "verdict_vs_baseline": "FLAT",
+  "label_classes": [
+    "A",
+    "D",
+    "H"
+  ],
+  "blend_weights": [
+    0.7,
+    0.3
+  ],
+  "blend_components": [
+    "StKDE",
+    "SVM"
+  ]
+}
