@@ -1,0 +1,26 @@
+{
+  "experiment": "W3C-11b_lr4_svm5_ts1",
+  "cv_log_loss_mean": 0.8183,
+  "cv_log_loss_std": 0.0095,
+  "accuracy": 0.6406,
+  "delta_vs_baseline_0.8337": -0.0154,
+  "delta_vs_frontier_0.7608": 0.0575,
+  "wilcoxon_vs_baseline_pvalue": 0.0207,
+  "wilcoxon_vs_frontier_pvalue": 0.4521,
+  "verdict_vs_baseline": "GREEN",
+  "label_classes": [
+    "A",
+    "D",
+    "H"
+  ],
+  "blend_weights": [
+    0.4,
+    0.5,
+    0.09999999999999998
+  ],
+  "blend_components": [
+    "LogReg(C=1.0)",
+    "SVM-RBF(C=1.0)",
+    "TwoStage(C=1.0)"
+  ]
+}

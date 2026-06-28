@@ -1,0 +1,22 @@
+{
+  "experiment": "W3C-09",
+  "cv_log_loss_mean": 0.8261,
+  "cv_log_loss_std": 0.0095,
+  "accuracy": 0.625,
+  "delta_vs_baseline_0.8337": -0.0076,
+  "delta_vs_frontier_0.7608": 0.0653,
+  "wilcoxon_vs_baseline_pvalue": 0.0662,
+  "wilcoxon_vs_frontier_pvalue": 0.6825,
+  "verdict_vs_baseline": "FLAT",
+  "label_classes": [
+    "A",
+    "D",
+    "H"
+  ],
+  "blend_components": [
+    "LogisticRegression(C=1.0, Elo)",
+    "SVC(C=1.0,gamma=scale,rbf, Elo)",
+    "LogisticRegression(C=0.05, Elo+Squad)"
+  ],
+  "blend_weights": "equal_1/3"
+}
