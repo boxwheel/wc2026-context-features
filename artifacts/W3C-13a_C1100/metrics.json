@@ -1,0 +1,24 @@
+{
+  "experiment": "W3C-13a_C1100",
+  "cv_log_loss_mean": 0.8131,
+  "cv_log_loss_std": 0.0101,
+  "accuracy": 0.6562,
+  "delta_vs_baseline_0.8337": -0.0206,
+  "delta_vs_frontier_0.7608": 0.0523,
+  "wilcoxon_vs_baseline_pvalue": 0.0185,
+  "wilcoxon_vs_frontier_pvalue": 0.4205,
+  "verdict_vs_baseline": "GREEN",
+  "label_classes": [
+    "A",
+    "D",
+    "H"
+  ],
+  "blend_weights": [
+    0.5,
+    0.5
+  ],
+  "blend_components": [
+    "TS",
+    "SVM"
+  ]
+}

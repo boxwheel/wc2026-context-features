@@ -1,0 +1,22 @@
+{
+  "experiment": "W3C-13c_C10",
+  "cv_log_loss_mean": 0.8337,
+  "cv_log_loss_std": 0.0202,
+  "accuracy": 0.625,
+  "delta_vs_baseline_0.8337": -0.0,
+  "delta_vs_frontier_0.7608": 0.0729,
+  "wilcoxon_vs_baseline_pvalue": 0.1068,
+  "wilcoxon_vs_frontier_pvalue": 0.636,
+  "verdict_vs_baseline": "FLAT",
+  "label_classes": [
+    "A",
+    "D",
+    "H"
+  ],
+  "blend_weights": [
+    1.0
+  ],
+  "blend_components": [
+    "LR"
+  ]
+}

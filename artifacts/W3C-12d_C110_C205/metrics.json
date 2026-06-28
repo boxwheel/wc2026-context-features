@@ -1,0 +1,24 @@
+{
+  "experiment": "W3C-12d_C110_C205",
+  "cv_log_loss_mean": 0.8263,
+  "cv_log_loss_std": 0.008,
+  "accuracy": 0.6562,
+  "delta_vs_baseline_0.8337": -0.0074,
+  "delta_vs_frontier_0.7608": 0.0655,
+  "wilcoxon_vs_baseline_pvalue": 0.0405,
+  "wilcoxon_vs_frontier_pvalue": 0.6729,
+  "verdict_vs_baseline": "FLAT",
+  "label_classes": [
+    "A",
+    "D",
+    "H"
+  ],
+  "blend_weights": [
+    0.5,
+    0.5
+  ],
+  "blend_components": [
+    "TwoStage",
+    "SVM"
+  ]
+}
